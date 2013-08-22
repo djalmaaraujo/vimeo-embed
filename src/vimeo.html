@@ -1,0 +1,18 @@
+<polymer-element name="vimeo"
+		 attributes="videoid title byline portrait color autoplay loop api player_id width height frameborder">
+
+	<template>
+		<iframe src="http://player.vimeo.com/video/{{videoid}}?portrait={{portrait}}&color={{color}}&title={{title}}&byline={{byline}}&autoplay={{autoplay}}&loop={{loop}}&api={{api}}&player_id={{player_id}}" width="{{width}}" height="{{height}}" frameborder="{{frameborder}}" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	</template>
+
+	<script>
+		Polymer('vimeo', {
+			portrait: 1,
+			color: '#00adef',
+			autoplay: 0,
+			loop: 0,
+			created: function () {}
+		});
+	</script>
+
+</polymer-element>
