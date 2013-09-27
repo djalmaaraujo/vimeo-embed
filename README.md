@@ -1,4 +1,4 @@
-# &lt;vimeo&gt;
+# &lt;vimeo-embed&gt;
 
 Web Component wrapper for Vimeo's player using Polymer.
 
@@ -6,7 +6,7 @@ Web Component wrapper for Vimeo's player using Polymer.
 
 ## Demo
 
-> [Check it live](http://djalmaaraujo.github.io/vimeo-element/).
+> [Check it live](http://djalmaaraujo.github.io/vimeo-embed/).
 
 ## Usage
 
@@ -25,7 +25,7 @@ Web Component wrapper for Vimeo's player using Polymer.
 3. Start using it!
 
 	```html
-	<vimeo videoid="871892738923"></vimeo>
+	<vimeo-embed videoid="871892738923"></vimeo-embed>
 	```
 
 ## Options
